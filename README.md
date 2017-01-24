@@ -1,10 +1,20 @@
-## Welcome to GitHub Pages
+## Wifi Garage Door Opener
 
-You can use the [editor on GitHub](https://github.com/colatt/WifiGarageDoor/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a simple project that will allow you to open or close your garage door from anywhere. It will also let you know whether the door is currently opened or closed. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I was looking to build this at a fraction of the cost of the commercial offerings and keeping it as simple as possible. 
 
-### Markdown
+### Technology
+
+For my first home automation project I wanted to use as many "off the shelf" tools as possible in order to simplify the development. After doing some research I found http://www.blynk.cc/ which I found to be an excellent fit for my project. It allowed me to customize an Android application and communicate with my wifi board with very little code.
+
+### Parts
+
+- [NodeMCU LUA WiFi ESP8266 Development Board](http://amzn.to/2iYBeTo)
+- [Door Sensor Magnetic Reed Switch](http://amzn.to/2kbAGq7)
+- [Breadboard](http://amzn.to/2klLUvB) - NOTE: I ended up buying this Arduino starter kit instead which comes with a breadboard and a bunch of other stuff as well [Arduino Starter Kit](http://amzn.to/2jWg3ku)
+- [Relay](https://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338026670&mpre=http%3A%2F%2Fwww.ebay.com%2Fitm%2FDC-3V-3-3V-Relay-High-Level-Driver-Module-optocouple-Relay-Module-for-Arduino%2F331502222842%3Frt%3Dnc%26_soffid%3D5%26_soffType%3DPromotionalShipping%26_trksid%3Dp5731.m3795) - NOTE: This relay works at 3v/3.3v which is what the ESP8266 board runs at.
+- Wire - NOTE: I used some 22awg speaker wire that I already had, however, using stranded wire in a breadboard can be difficult. I would recommend solid core if you don't plan on doing any soldering.
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
