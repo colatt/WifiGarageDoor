@@ -12,9 +12,16 @@ For my first home automation project I wanted to use as many "off the shelf" too
 
 - [NodeMCU LUA WiFi ESP8266 Development Board](http://amzn.to/2iYBeTo)
 - [Door Sensor Magnetic Reed Switch](http://amzn.to/2kbAGq7)
-- [Breadboard](http://amzn.to/2klLUvB) - NOTE: I ended up buying this Arduino starter kit instead which comes with a breadboard and a bunch of other stuff as well [Arduino Starter Kit](http://amzn.to/2jWg3ku)
+- [Breadboard](http://amzn.to/2klLUvB) - NOTE: I ended up buying an [Arduino Starter Kit](http://amzn.to/2jWg3ku) instead, which comes with a breadboard and a bunch of other stuff as well.
 - [Relay](https://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_id=114&ipn=icep&toolid=20004&campid=5338026670&mpre=http%3A%2F%2Fwww.ebay.com%2Fitm%2FDC-3V-3-3V-Relay-High-Level-Driver-Module-optocouple-Relay-Module-for-Arduino%2F331502222842%3Frt%3Dnc%26_soffid%3D5%26_soffType%3DPromotionalShipping%26_trksid%3Dp5731.m3795) - NOTE: This relay works at 3v/3.3v which is what the ESP8266 board runs at.
 - Wire - NOTE: I used some 22awg speaker wire that I already had, however, using stranded wire in a breadboard can be difficult. I would recommend solid core if you don't plan on doing any soldering.
+- Butt Connectors - These can be picked up at any hardware or automotive store.
+
+All these parts total ~$35 and you will have plenty of parts left over for more home automation projects.
+
+### Schematic 
+
+![Image](https://github.com/colatt/WifiGarageDoor/blob/master/GarageDoor_bb.png)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
