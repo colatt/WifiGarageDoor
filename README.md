@@ -91,3 +91,15 @@ void garageDoorMagneticSensor()
   }
 }
 ```
+
+### Putting it all together
+
+1. Install [Arduino IDE](https://www.arduino.cc/en/main/software)
+2. Install the ESP8266 board by opening Arduino IDE -> Tools -> Board -> Board Manager -> Enter ESP8266 into search bar and install esp8266 by ESP8266 Community
+3. Install the Blynk library by going to Sketch -> Include Library -> Manager Libraries -> Enter Blynk into the search bar and install the Blynk library
+4. Select the NodeMCU board by going to Tools -> Board -> Select NodeMCU 1.0 (ESP-12E Module)
+5. Copy and paste the above code into your new ino file and plug in your board using your micro usb cord to your computer
+6. Make sure you have the correct COM port selected which is basically the usb port your board is plugged into. Select Tools -> Port -> Then select the Port you think your board is on (if the first one doesn't work try another)
+7. Set upload speed, go to Tools -> Upload Speed -> Select 115200
+8. Upload the code to the board, go to Sketch -> Upload
+
