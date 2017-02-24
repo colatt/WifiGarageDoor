@@ -95,6 +95,7 @@ void garageDoorMagneticSensor()
 ### Putting it all together
 
 I would highly recommend going through the [Blynk Tutorial](http://docs.blynk.cc/#getting-started) on getting started. 
+
 1. Install [Arduino IDE](https://www.arduino.cc/en/main/software)
 2. Install the ESP8266 board by opening Arduino IDE -> Tools -> Board -> Board Manager -> Enter ESP8266 into search bar and install esp8266 by ESP8266 Community
 3. Install the Blynk library by going to Sketch -> Include Library -> Manager Libraries -> Enter Blynk into the search bar and install the Blynk library
